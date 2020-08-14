@@ -1,0 +1,53 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.top {
+  text-transform: uppercase;
+  padding: 0.7rem 0 0 0.6rem;
+  letter-spacing: -0.1rem;
+}
+
+.scarecrow {
+  padding: 3rem 2rem 2rem 2rem;
+  width: 80%;
+  height: 80%;
+}
+
+.big-heading {
+  padding: 2rem 1rem 2rem 1rem;
+  letter-spacing: 3px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+/*# sourceMappingURL=style.css.map */

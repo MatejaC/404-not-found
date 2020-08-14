@@ -1,0 +1,60 @@
+$primary-font: "Raleway", sans-serif;
+$secondary-font: "Montserrat", sans-serif;
+$background-color: #ffffff;
+$black: #000000;
+$op-black: rgba(0, 0, 0, 0.54);
+
+$grey-softy: #979797;
+$color-drakov: #323232;
+$color-callme: #3d3d3d;
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+*,
+*::before,
+*::after {
+ box-sizing: inherit;
+}
+
+.clearfix {
+ zoom: 1;
+}
+
+body {
+ background-color: $background-color;
+ font-family: $primary-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: $primary-font;
+}
+
+.top {
+ text-transform: uppercase;
+ padding: 0.7rem 0 0 0.6rem;
+ letter-spacing: -0.1rem;
+}
+
+.scarecrow {
+ padding: 3rem 2rem 2rem 2rem;
+ width: 80%;
+ height: 80%;
+}
+
+.big-heading {
+ padding: 2rem 1rem 2rem 1rem;
+ letter-spacing: 3px;
+ text-align: left;
+ font-weight: 700;
+ line-height: 1.5;
+ font-size: 2.5rem;
+}
