@@ -1,6 +1,6 @@
 // variables
 
-$primary-font: "Orbitron", sans-serif;
+$primary-font: "Space Mono", monospace;
 $secondary-font: "Montserrat", sans-serif;
 $background-color: #ffffff;
 $black: #000000;
@@ -64,6 +64,7 @@ h6 {
 }
 
 .info-block {
+ font-family: $secondary-font;
  display: inline-block;
  margin: 0.2rem 3rem 2rem 3rem;
  font-weight: 400;
@@ -100,9 +101,9 @@ h6 {
 footer {
  display: inline-block;
  position: relative;
- font-size: 0.4rem;
+ font-size: 0.3rem;
  line-height: 1rem;
- margin: 10rem 2rem 0.2rem 0rem;
+ margin: 0rem 2rem 0.2rem 3rem;
 
  a:link {
   text-decoration: none;
