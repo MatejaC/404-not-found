@@ -1,6 +1,6 @@
 // variables
 
-$primary-font: "Orbitron", sans-serif;
+$primary-font: "Space Mono", monospace;
 $secondary-font: "Montserrat", sans-serif;
 $background-color: #ffffff;
 $black: #000000;
@@ -37,80 +37,82 @@ h5,
 h6 {
  font-family: $primary-font;
 }
-
-.top {
- display: inline-block;
- text-transform: uppercase;
- margin: 0.7rem 0 0 2.7rem;
- letter-spacing: -0.1rem;
- font-size: 0.7rem;
-}
-
-.scarecrow {
- padding: 3rem 2.5rem 1rem 2.5rem;
- width: 100%;
- max-width: 100ch;
-}
-
-.big-heading {
- display: inline-block;
- margin: 1.5rem 2rem 1rem 3rem;
- letter-spacing: 3px;
- font-weight: 700;
- line-height: 1.8;
- font-size: 1.5rem;
- letter-spacing: 0.2rem;
- color: $black;
-}
-
-.info-block {
- display: inline-block;
- margin: 0.2rem 3rem 2rem 3rem;
- font-weight: 400;
- line-height: 1.8;
- color: $blackish;
- letter-spacing: 0.1rem;
- font-size: 0.7rem;
-}
-
-.button-homepage {
- display: inline-block;
- position: relative;
- color: $background-color;
- width: 8rem;
- background-color: $black;
- text-align: center;
- vertical-align: middle;
- margin: 0.8rem 0rem 8rem 2.9rem;
- text-transform: uppercase;
- font-size: 0.6rem;
- padding: 1rem 0.3rem 1rem 0.3rem;
- font-weight: 500;
- border: none;
- line-height: 0.3rem;
- width: 8rem;
-
- @media (any-hover: hover) {
-  &:hover {
-   background: $grey-dark;
-  }
+.wrapper {
+ .top {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0.7rem 0 0 2.7rem;
+  letter-spacing: -0.1rem;
+  font-size: 0.7rem;
  }
-}
 
-footer {
- display: inline-block;
- position: relative;
- font-size: 0.4rem;
- line-height: 1rem;
- margin: 10rem 2rem 0.2rem 0rem;
+ .scarecrow {
+  padding: 3rem 2.5rem 1rem 2.5rem;
+  width: 100%;
+  max-width: 100ch;
+ }
 
- a:link {
-  text-decoration: none;
+ .big-heading {
+  display: inline-block;
+  margin: 1.5rem 2rem 1rem 3rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  line-height: 1.8;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
   color: $black;
  }
 
- a {
-  color: inherit;
+ .info-block {
+  font-family: $secondary-font;
+  display: inline-block;
+  margin: 0.2rem 3rem 2rem 3rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: $blackish;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+ }
+
+ .button-homepage {
+  display: inline-block;
+  position: relative;
+  color: $background-color;
+  width: 8rem;
+  background-color: $black;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0.8rem 0rem 5rem 2.9rem;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  padding: 1rem 0.3rem 1rem 0.3rem;
+  font-weight: 500;
+  border: none;
+  line-height: 0.3rem;
+  width: 8rem;
+
+  @media (any-hover: hover) {
+   &:hover {
+    background: $grey-dark;
+   }
+  }
+ }
+
+ footer {
+  display: inline-block;
+  position: relative;
+  font-size: 0.4rem;
+  line-height: 1rem;
+  margin: 0rem 0rem 0.5rem 8rem;
+
+  a:link {
+   text-decoration: none;
+   color: $black;
+  }
+
+  a {
+   color: inherit;
+  }
  }
 }
 
