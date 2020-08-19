@@ -13,7 +13,7 @@
 
 body {
   background-color: #ffffff;
-  font-family: "Space Mono", monospace;
+  font-family: "Orbitron", sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -25,10 +25,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Space Mono", monospace;
+  font-family: "Orbitron", sans-serif;
 }
 
-.wrapper .top {
+.top {
   display: inline-block;
   text-transform: uppercase;
   margin: 0.7rem 0 0 2.7rem;
@@ -36,13 +36,13 @@ h6 {
   font-size: 0.7rem;
 }
 
-.wrapper .scarecrow {
+.scarecrow {
   padding: 3rem 2.5rem 1rem 2.5rem;
   width: 100%;
   max-width: 100ch;
 }
 
-.wrapper .big-heading {
+.big-heading {
   display: inline-block;
   margin: 1.5rem 2rem 1rem 3rem;
   letter-spacing: 3px;
@@ -53,8 +53,7 @@ h6 {
   color: #000000;
 }
 
-.wrapper .info-block {
-  font-family: "Montserrat", sans-serif;
+.info-block {
   display: inline-block;
   margin: 0.2rem 3rem 2rem 3rem;
   font-weight: 400;
@@ -64,7 +63,7 @@ h6 {
   font-size: 0.7rem;
 }
 
-.wrapper .button-homepage {
+.button-homepage {
   display: inline-block;
   position: relative;
   color: #ffffff;
@@ -72,7 +71,7 @@ h6 {
   background-color: #000000;
   text-align: center;
   vertical-align: middle;
-  margin: 0.8rem 0rem 5rem 2.9rem;
+  margin: 0.8rem 0rem 8rem 2.9rem;
   text-transform: uppercase;
   font-size: 0.6rem;
   padding: 1rem 0.3rem 1rem 0.3rem;
@@ -83,25 +82,25 @@ h6 {
 }
 
 @media (any-hover: hover) {
-  .wrapper .button-homepage:hover {
+  .button-homepage:hover {
     background: #3b3a3a;
   }
 }
 
-.wrapper footer {
+footer {
   display: inline-block;
   position: relative;
   font-size: 0.4rem;
   line-height: 1rem;
-  margin: 0rem 0rem 0.5rem 8rem;
+  margin: 10rem 2rem 0.2rem 0rem;
 }
 
-.wrapper footer a:link {
+footer a:link {
   text-decoration: none;
   color: #000000;
 }
 
-.wrapper footer a {
+footer a {
   color: inherit;
 }
 
