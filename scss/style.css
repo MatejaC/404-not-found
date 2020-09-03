@@ -141,7 +141,7 @@ footer a {
     -ms-grid-row: 2;
     -ms-grid-row-span: 2;
     grid-row: 2 / 4;
-    margin: 10rem 0rem 0 2rem;
+    margin: 8rem 0rem 0 2rem;
     padding: 0;
     width: 100%;
     max-width: 100ch;
@@ -154,9 +154,9 @@ footer a {
     grid-column: 3 / 4;
     -ms-grid-row: 2;
     grid-row: 2;
-    margin: 9rem 10rem 1rem 0rem;
+    margin: 8rem 5rem 1rem 3rem;
     font-size: 1;
-    line-height: 1.6;
+    line-height: 1.3;
   }
   .info-block {
     display: inline-block;
@@ -166,8 +166,8 @@ footer a {
     grid-column: 3 / 4;
     -ms-grid-row: 3;
     grid-row: 3;
-    margin: 1rem 9rem 2rem 0;
-    font-size: 0.8rem;
+    margin: 0rem 5rem 2rem 3rem;
+    font-size: 0.7rem;
     padding: 0rem;
   }
   .button-homepage {
@@ -178,7 +178,8 @@ footer a {
     grid-column: 3 / 4;
     -ms-grid-row: 4;
     grid-row: 4;
-    margin-left: 0rem;
+    margin-left: 2.8rem;
+    margin-top: -0.8rem;
   }
   footer {
     display: inline-block;
