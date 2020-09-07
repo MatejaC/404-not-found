@@ -1,11 +1,12 @@
 // variables
 
 $primary-font: "Space Mono", monospace;
-$secondary-font: "Montserrat", sans-serif;
+$secondary-font: "Inconsolata", monospace;
+$tertiary-font: "Montserrat", sans-serif;
 $background-color: #ffffff;
 $black: #000000;
-$grey-dark: #3b3a3a;
-$blackish: #2a2a2a;
+$grey1: #333333;
+$grey2: #4f4f4f;
 
 // base styles
 
@@ -15,6 +16,90 @@ $blackish: #2a2a2a;
  box-sizing: border-box;
  margin: 0;
  padding: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+hr {
+ margin: 0;
+ padding: 0;
+ border: 0;
 }
 
 .clearfix {
@@ -39,81 +124,106 @@ html {
  box-sizing: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- font-family: $primary-font;
+//mobile
+.panel {
+ background-color: $background-color;
+ // Centered block elment
+ margin: 1rem auto;
+ max-width: 720px;
+ padding: 2rem;
+ border-radius: 1rem;
 }
 
 .top {
- display: inline-block;
+ display: flex;
+ flex-direction: row;
  text-transform: uppercase;
- margin: 0.7rem 0 0 2.7rem;
- letter-spacing: -0.1rem;
- font-size: 0.7rem;
-}
-
-.scarecrow {
- padding: 3rem 2.5rem 1rem 2.5rem;
- width: 100%;
- max-width: 100ch;
-}
-
-.big-heading {
- display: inline-block;
- margin: 1.5rem 2rem 1rem 3rem;
- letter-spacing: 3px;
- font-weight: 700;
- line-height: 1.8;
- font-size: 1.5rem;
- letter-spacing: 0.2rem;
+ margin: 0.2rem 0 3.5rem 0.5rem;
+ letter-spacing: -0.08em;
+ text-transform: uppercase;
+ font-size: 1rem;
+ line-height: 1.1rem;
+ font-family: $secondary-font;
+ font-weight: bold;
  color: $black;
 }
 
-.info-block {
- font-family: $secondary-font;
- display: inline-block;
- margin: 0.2rem 3rem 2rem 3rem;
- font-weight: 400;
- line-height: 1.8;
- color: $blackish;
- letter-spacing: 0.1rem;
- font-size: 0.7rem;
+.scarecrow {
+ display: flex;
+ width: 100%;
+ max-width: 100ch;
+ left: 11.73%;
+ right: 11.78%;
+ top: 11.49%;
+ bottom: 63.44%;
 }
 
-.button-homepage {
- display: inline-block;
- position: relative;
- color: $background-color;
- width: 8rem;
- background-color: $black;
- text-align: center;
- vertical-align: middle;
- margin: 0.8rem 0rem 8rem 2.9rem;
- text-transform: uppercase;
- font-size: 0.6rem;
- padding: 1rem 0.3rem 1rem 0.3rem;
- font-weight: 500;
- border: none;
- line-height: 0.3rem;
- width: 8rem;
+.wrapper__image {
+ width: 50%;
 
- @media (any-hover: hover) {
-  &:hover {
-   background: $grey-dark;
-  }
+ img {
+  width: 100%;
  }
 }
 
-footer {
- display: inline-block;
+.big-heading {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 1.5rem 0.1rem 1rem 0.1rem;
+ font-size: 2.8rem;
+ line-height: 4rem;
+ letter-spacing: -0.035em;
+ font-weight: bold;
+ font-family: $primary-font;
+ color: $grey1;
+}
+
+.info-block {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-family: $primary-font;
+ color: $grey2;
+ font-size: 1.1rem;
+ line-height: 1.7;
+ letter-spacing: -0.035em;
+ margin: 2rem 0rem 4rem 0rem;
+}
+
+.button-homepage {
+ display: flex;
+ justify-content: start;
  position: relative;
- font-size: 0.3rem;
+ background-color: $grey1;
+ color: $background-color;
+ font-family: $primary-font;
+ font-size: 0.8rem;
+ line-height: 1.32rem;
+ letter-spacing: -0.035em;
+ text-transform: uppercase;
+ font-weight: bold;
+ width: 12rem;
+ height: 4rem;
+ margin: 0rem 0rem 8rem 0rem;
+ text-align: center;
+ vertical-align: middle;
+ padding: 1.3rem 2rem 1.2rem 2rem;
+ border: none;
+}
+
+footer {
+ display: flex;
+ position: relative;
+ align-items: center;
+ justify-content: center;
+ align-self: center;
+ font-size: 0.7rem;
  line-height: 1rem;
- margin: 0rem 2rem 0.2rem 3rem;
+ margin-bottom: 1rem;
+ font-weight: 600;
+ font-family: $tertiary-font;
+ color: $black;
 
  a:link {
   text-decoration: none;
@@ -125,13 +235,8 @@ footer {
  }
 }
 
-// media queries
+/* // media queries
 @media only screen and (min-device-width: 426px) and (max-device-width: 764px) {
- .wrapper {
-  display: grid;
-  grid-template: 1fr 1fr 1fr;
- }
-
  .top {
   display: inline-block;
   position: relative;
@@ -286,6 +391,7 @@ footer {
  .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100vh;
  }
 
  .top {
@@ -372,6 +478,7 @@ footer {
   text-align: center;
   align-items: center;
   vertical-align: middle;
+  height: 100vh;
  }
 
  .top {
@@ -390,6 +497,7 @@ footer {
   margin: 12rem 0rem 0 20rem;
   padding: 0;
   width: 65%;
+
   max-width: 100ch;
  }
 
@@ -452,3 +560,4 @@ footer {
   color: inherit;
  }
 }
+ */
