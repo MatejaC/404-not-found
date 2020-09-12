@@ -135,7 +135,7 @@ html {
     margin: 0.2rem 0 3.5rem 0.5rem;
     letter-spacing: -0.08em;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.1rem;
     font-family: "Inconsolata", monospace;
     font-weight: bold;
@@ -267,7 +267,7 @@ html {
     margin: 0.2rem 0 3.5rem 2rem;
     letter-spacing: -0.08em;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.1rem;
     font-family: "Inconsolata", monospace;
     font-weight: bold;
@@ -382,15 +382,44 @@ html {
   .panel {
     background-color: #ffffff;
     margin: 2rem auto;
-    max-width: 1300px;
+    max-width: 1400px;
     padding: 2rem;
     border-radius: 1rem;
   }
+  .top {
+    font-size: 1.5rem;
+  }
   .wrapper {
     margin-top: 12rem;
+    padding: 0rem;
+  }
+  .wrapper__image {
+    padding: 0rem;
+    width: 75%;
+  }
+  .wrapper__image img {
+    width: 100%;
+  }
+  .wrapper__content {
+    padding: 0rem;
+  }
+  .wrapper__content__big__heading {
+    margin: 1rem 0rem 1rem 8rem;
+    font-size: 4rem;
+    line-height: 5.8rem;
+    letter-spacing: -0.035em;
+  }
+  .wrapper__content__info__block {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    letter-spacing: -0.035em;
+    margin: 2rem 18rem 4rem 8.5rem;
+  }
+  .wrapper__content__button__homepage {
+    margin: 0rem 0rem 0rem 8.5rem;
   }
   footer {
-    margin-top: 12rem;
+    margin-top: 17rem;
   }
 }
 
