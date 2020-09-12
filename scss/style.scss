@@ -152,12 +152,12 @@ html {
  .wrapper {
   display: flex;
   padding: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 14rem;
  }
 
  .wrapper__image {
-  width: 50%;
-  padding-top: 2rem;
+  width: 85%;
+  padding-top: 1rem;
 
   img {
    width: 100%;
@@ -166,15 +166,15 @@ html {
  }
 
  .wrapper__content {
-  padding: 1rem;
+  padding: 0rem;
  }
 
  .wrapper__content__big__heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1.5rem 0.1rem 1rem 0.1rem;
-  font-size: 2.8rem;
+  margin: 0rem 0rem 1rem 2rem;
+  font-size: 2.5rem;
   line-height: 4rem;
   letter-spacing: -0.035em;
   font-weight: bold;
@@ -191,7 +191,7 @@ html {
   font-size: 1.1rem;
   line-height: 1.7;
   letter-spacing: -0.035em;
-  margin: 2rem 0rem 4rem 0rem;
+  margin: 2rem 7.5rem 3rem 2.2rem;
  }
 
  .wrapper__content__button__homepage {
@@ -208,7 +208,7 @@ html {
   font-weight: bold;
   width: 12rem;
   height: 4rem;
-  margin: 0rem 0rem 8rem 0rem;
+  margin: 0rem 0rem 8rem 2rem;
   text-align: center;
   vertical-align: middle;
   padding: 1.3rem 2rem 1.2rem 2rem;
@@ -222,8 +222,9 @@ html {
   justify-content: center;
   align-self: center;
   font-size: 0.7rem;
-  line-height: 1rem;
-  margin-bottom: 0rem;
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
+  margin-top: 13rem;
   font-weight: 600;
   font-family: $tertiary-font;
   color: $black;
@@ -384,6 +385,7 @@ html {
  .wrapper__content {
   padding: 0rem;
  }
+
  .wrapper__content__big__heading {
   margin: 1rem 0rem 1rem 8rem;
   font-size: 4rem;
