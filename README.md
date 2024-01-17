@@ -1,4 +1,4 @@
-# devchallenges-404-not-found
+# 404-not-found
 
 practical exercise
 Challenge from <https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY>
